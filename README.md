@@ -1,5 +1,7 @@
 🎬 Movie Recommendation System
+
 A content-based recommender engine using NLP and cosine similarity
+
 🌟 Why This Project?
 While recommendation systems are common, this implementation:
 ✔ Handcrafted from scratch (no copy-pasted tutorial code)
@@ -7,6 +9,7 @@ While recommendation systems are common, this implementation:
 ✔ Explainable – Recommendations are traceable to feature weights
 
 🛠 Tech Stack
+
 -Backend	: Python (Flask), NLP (TF-IDF, NLTK)
 -ML Core  : Scikit-learn (cosine similarity)
 -Frontend : HTML/CSS/JS (Optional if applicable)
@@ -48,4 +51,4 @@ python app.py  # Starts Flask server
     Interpretable: See why movies were recommended (e.g., "80% genre match")
 
     Lightweight: <100MB memory usage vs. heavy DL models
-
+http://localhost:8501/
